@@ -6,23 +6,23 @@
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-          {% for action in section.actions %}
+          {% for role in section.roles %}
           <li class="{% cycle 'timeline-normal', 'timeline-inverted' %}">
             <div>
-            <img class="img-circle img-responsive timeline-image" src="{{ action.image }}" alt="">
+            <img class="img-circle img-responsive timeline-image" src="{{ role.image }}" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>{{ action.title | markdownify }}</h4>
+                <h4>{{ role.title | markdownify }}</h4>
               </div>
               <div class="timeline-body text-white">
-                <h5>{{ action.location | markdownify }}</h5>
+                <h5>{{ role.location | markdownify }}</h5>
               </div>
               <div class="timeline-body text-white-50">
-                <h5>{{ action.duration | markdownify }}</h5>
+                <h5>{{ role.duration | markdownify }}</h5>
               </div>
               <div class="timeline-body">
-                <p class="text-white-50">{{ action.text | markdownify }}</p>
+                <p class="text-white-50">{{ role.text | markdownify }}</p>
               </div>
             </div>
           </li>
@@ -35,5 +35,6 @@
         </ul>
       </div>
     </div>
+    {% include actions.html actions=section.actions %} 
   </div>
 </section>

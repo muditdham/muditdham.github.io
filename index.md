@@ -66,7 +66,7 @@ sections:
     title: Work Experience
     background_style: bg-dark text-primary
     last_image: assets/img/logos/education.png
-    actions:
+    roles:
       - image: assets/img/logos/su-ischool.png
         title: Faculty Assistant
         location: Syracuse University
@@ -96,6 +96,10 @@ sections:
         location: Decimal Point Analytics
         duration: Sept 2015 - Oct 2017
         text: >+  
+
+    actions:
+      - title: Education
+        url: '#education'
 
   - type: education.html
     section_id: education
@@ -136,40 +140,47 @@ sections:
           - Operations Management
         image: assets/img/logos/sibm-logo.jpg
         url: '#'
-     
-  # - type: portfolio.html
-  #   # this section has always ID 'portfolio'
-  #   #section_id: portfolio
-  #   #background_style: bg-dark
-  #   projects:
-  #     - title: Project 1
-  #       text: This is a very short project description.
-  #       # the images are located in:
-  #       # img/portfolio/fullsize
-  #       # img/portfolio/thumbnails
-  #       icon: 1.jpg
-  #       url: '#'
-  #     - title: Project 2
-  #       text: This is a very short project description.
-  #       icon: 2.jpg
-  #       url: '#'
-  #     - title: Project 3
-  #       text: This is a very short project description.
-  #       icon: 3.jpg
-  #       url: '#'
-  #     - title: Project 4
-  #       text: This is a very short project description.
-  #       icon: 4.jpg
-  #       url: '#'
-  #     - title: Project 5
-  #       text: This is a very short project description.
-  #       icon: 5.jpg
-  #       url: '#'
-  #     - title: Project 6
-  #       text: This is a very short project description.
-  #       icon: 6.jpg
-  #       url: '#'
 
+    actions:
+    - title: Projects
+      url: '#projects'
+      class: btn-dark
+     
+  - type: projects.html
+    # background_style: bg-light
+    section_id: projects
+    title: Projects
+    projects:
+      - title: Representation Learning on Wikipedia Categories
+        text: Project is aimmed to understand how Representation Learning works and how it can be applied successfully to networks with an objective to obtain a low dimensional representation of a network while maintaining it's structure
+        image: 'assets/img/projects/rep-learn-wiki.png'
+        url: ''
+      - title: Time Series Anomaly Detection using Auto Encoders
+        text: Leveraging the concept of Auto Encoders, this project addresses the question of how Anomaly Detection can be performed on data which is temportal in nature (time series)
+        image: 'assets/img/projects/time-series-ae.png'
+        url: '#'
+      - title: Solving Travelling Salesman Problem using Ant Colony Optimization
+        text: The objective of this project is to explore nature inspired Ant Colony Optimization algorithm and apply it to solve the classic Travelling Salesman Problem
+        image: 'assets/img/projects/aco-tsp.png'
+        url: '#'
+      - title: Auto Floorplan Design for Photonic Chips and Circuits
+        text: Implmentation of a packing algorithm which is space efficient while placing various circuit components together inaccordance to certain user defined constraints. 
+        image: 'assets/img/projects/autofloorplan.png'
+        url: '#'
+      - title: Comparitive Analysis of Coomunity Detection Algorithms
+        text: Analysis uses structural metrics such as conductance and modularity along with ground truth to analyze the quality of the communities discovered by various community detection algorithms
+        image: 'assets/img/projects/comm-detection.png'
+        url: '#'
+      - title: 'Coming Soon'
+        text: 'Currently working on it'
+        image: 'assets/img/projects/coming-soon.png'
+        url: '#'
+    actions:
+    - title: Connect
+      url: '#connect'
+      class: btn-dark
+      
+      
   # - type: aside.html
   #   section_id: aside
   #   title: Free Download at Start Bootstrap!
@@ -212,22 +223,24 @@ sections:
   - type: connect.html
     section_id: connect
     title: Let's Get in Touch!
-    text: Would like to connect? Follow me on LinkedIn. <br>
-      Give me a call or send me an email and I will get back to you as soon as possible!
+    texts:
+      - Would like to connect? 
+      - Follow me on LinkedIn. 
+      - Send me an email and I will get back to you as soon as possible!
     actions:
-    - title: +1 (315) 395-3731
-      icon: fa-phone
-    - title: E-Mail
-      icon: fa-envelope
-      url: mailto:muditdham24@gmail.com
+    - title: Github
+      icon: fa-github
+      icon_type: fab
+      url: 'https://github.com/muditdham'
     - title: LinkedIn
       icon: fa-linkedin
       icon_type: fab
       url: 'https://www.linkedin.com/in/muditdham/'
+    - title: E-Mail
+      icon: fab fa-envelope
+      url: mailto:muditdham24@gmail.com
     - title: Twitter
       icon: fa-twitter
       icon_type: fab
       url: 'https://twitter.com/muditdham'
-    
-
 ---
