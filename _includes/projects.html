@@ -6,7 +6,7 @@
       <div class="row no-gutters">
         {% for proj in section.projects %}
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ proj.image }}">
+          <div class="portfolio-box">
             <img class="img-fluid" src="{{ proj.image }}" alt="">
             <div class="portfolio-box-caption">
               <div class="project-name text-dark">
@@ -16,8 +16,13 @@
                 <hr class="divider my-4">
                 {{ proj.text }}
               </div>
+              {% if proj.url %}
+              <div class="project-category text-dark mt-3">
+                <a href="{{ proj.url }}"><i class="fab fa-github fa-3x"></i></a>
+              </div>
+              {% endif %}
             </div>
-          </a>
+          </div>
         </div>
         {% endfor %}
       </div>

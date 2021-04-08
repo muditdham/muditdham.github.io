@@ -152,9 +152,9 @@ sections:
     title: Projects
     projects:
       - title: Representation Learning on Wikipedia Categories
-        text: Project is aimmed to understand how Representation Learning works and how it can be applied successfully to networks with an objective to obtain a low dimensional representation of a network while maintaining it's structure
+        text: Project is aimed to understand how Representation Learning works and how it can be applied successfully to networks with an objective to obtain a low dimensional representation of a network while maintaining it's structure
         image: 'assets/img/projects/rep-learn-wiki.png'
-        url: ''
+        url: 'https://github.com/muditdham/node2vec-wiki-categories'
       - title: Time Series Anomaly Detection using Auto Encoders
         text: Leveraging the concept of Auto Encoders, this project addresses the question of how Anomaly Detection can be performed on data which is temportal in nature (time series)
         image: 'assets/img/projects/time-series-ae.png'
@@ -229,7 +229,7 @@ sections:
       - Send me an email and I will get back to you as soon as possible!
     actions:
     - title: Github
-      icon: fa-github
+      icon: fa-github-square
       icon_type: fab
       url: 'https://github.com/muditdham'
     - title: LinkedIn
@@ -240,7 +240,7 @@ sections:
       icon: fab fa-envelope
       url: mailto:muditdham24@gmail.com
     - title: Twitter
-      icon: fa-twitter
+      icon: fa-twitter-square
       icon_type: fab
       url: 'https://twitter.com/muditdham'
 ---
