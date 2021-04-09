@@ -158,7 +158,7 @@ sections:
       - title: Time Series Anomaly Detection using Auto Encoders
         text: Leveraging the concept of Auto Encoders, this project addresses the question of how Anomaly Detection can be performed on data which is temportal in nature (time series)
         image: 'assets/img/projects/time-series-ae.png'
-        url: '#'
+        url: 'https://github.com/muditdham/time-series-auto-encoder'
       - title: Solving Travelling Salesman Problem using Ant Colony Optimization
         text: The objective of this project is to explore nature inspired Ant Colony Optimization algorithm and apply it to solve the classic Travelling Salesman Problem
         image: 'assets/img/projects/aco-tsp.png'
