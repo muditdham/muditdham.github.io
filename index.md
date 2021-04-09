@@ -162,15 +162,15 @@ sections:
       - title: Solving Travelling Salesman Problem using Ant Colony Optimization
         text: The objective of this project is to explore nature inspired Ant Colony Optimization algorithm and apply it to solve the classic Travelling Salesman Problem
         image: 'assets/img/projects/aco-tsp.png'
-        url: '#'
+        url: 'https://github.com/muditdham/aco-tsp'
       - title: Auto Floorplan Design for Photonic Chips and Circuits
         text: Implmentation of a packing algorithm which is space efficient while placing various circuit components together inaccordance to certain user defined constraints. 
         image: 'assets/img/projects/autofloorplan.png'
-        url: '#'
-      - title: Comparitive Analysis of Coomunity Detection Algorithms
+        url: 'https://github.com/muditdham/autofloorplan'
+      - title: Comparitive Analysis of Community Detection Algorithms
         text: Analysis uses structural metrics such as conductance and modularity along with ground truth to analyze the quality of the communities discovered by various community detection algorithms
         image: 'assets/img/projects/comm-detection.png'
-        url: '#'
+        url: 'https://github.com/muditdham/twitter-community-analysis'
       - title: 'Coming Soon'
         text: 'Currently working on it'
         image: 'assets/img/projects/coming-soon.png'

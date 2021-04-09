@@ -259,7 +259,7 @@ PLATFORMS
   universal-darwin-20
 
 DEPENDENCIES
-  github-pages (= 209)
+  github-pages
   jekyll-seo-tag (= 2.6.1)
   jekyll-sitemap (= 1.4.0)
 
