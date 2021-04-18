@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Links
 #background_style: bg-info
@@ -98,4 +98,4 @@ sections:
     3. Integer molestie lorem at massa
 
 ---
-Here goes some raw markdown content.
+Here goes some raw markdown content. -->
