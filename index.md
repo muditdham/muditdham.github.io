@@ -224,7 +224,7 @@ sections:
     section_id: connect
     title: Let's Get in Touch!
     texts:
-      - Would like to connect? 
+      # - Would like to connect? 
       - Follow me on LinkedIn. 
       - Send me an email and I will get back to you as soon as possible!
     actions:
